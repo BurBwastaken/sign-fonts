@@ -1,5 +1,5 @@
 param(
-    [string] $GameDirectory = 'C:\Users\ewant\AppData\Roaming\waxlight\versions\1.22.7'
+    [string] $GameDirectory = (Join-Path $( [Environment]::GetFolderPath('ApplicationData') ) 'waxlight\versions\1.22.7')
 )
 
 $ErrorActionPreference = 'Stop'

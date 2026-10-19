@@ -1,4 +1,4 @@
-param([string] $GameDirectory = 'C:\Users\ewant\AppData\Roaming\waxlight\versions\1.22.7')
+param([string] $GameDirectory = (Join-Path $( [Environment]::GetFolderPath('ApplicationData') ) 'waxlight\versions\1.22.7'))
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path $PSScriptRoot -Parent
 foreach ($dependency in @('Lib\cairo-sharp.dll','Lib\SkiaSharp.dll','Lib\0Harmony.dll','Lib\Newtonsoft.Json.dll','VintagestoryAPI.dll')) {
