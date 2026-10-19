@@ -1,0 +1,16 @@
+{
+  "type": "code",
+  "modid": "signfonts",
+  "name": "Sign Fonts",
+  "authors": [ "burb" ],
+  "description": "Format individual words on signs with custom fonts, sizes, bold, italic, underline and alignment.",
+  "version": "1.3.2",
+  "networkVersion": "1.3.2",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": false,
+  "dependencies": {
+    "game": "1.22.0",
+    "survival": "1.22.0"
+  }
+}
